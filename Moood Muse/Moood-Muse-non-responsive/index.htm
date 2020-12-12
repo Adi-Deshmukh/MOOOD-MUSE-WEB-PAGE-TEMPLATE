@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@600&display=swap" rel="stylesheet">               
+<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+
+
+<style>
+
+</style>
+</head>
+<body>
+
+
+    <!--Pre Loader-->
+
+    <div class="loader_bg">
+      
+        <div ><span class="load_title" >MOOOD </span><br>
+             <span class="load_sub" style="font-family: 'Teko', sans-serif;">Muse</span>
+         </div>
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>    
+        </div>
+    
+    </div>
+    
+    <!--HEADER-->
+  
+    
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" data-scroll-to="" class="active">Home</a>
+            <a href="#"  data-scroll-to="#feature">Feature</a>
+            <a href="#contact"  data-scroll-to="">Showcase</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+            <div class="nav_title">
+                <div>MOOOD </div>
+                <div onclick="openNav()" >Muse &#9776;</div>
+            </div>
+        
+               
+        </div>
+
+        <!--The overlay options-->
+                 
+                <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+            <a id="ov1" href="#">About Us</a>
+            <a id="ov2" href="#">Services</a>
+            <a id="ov3" href="#">Contact</a>
+            <a id="ov4" href="#">Clients </a>
+            </div>
+        
+        </div>
+            
+        
+    </header>
+
+    <!--The Intro Section-->
+
+    <section>
+        <div class="first_title">
+            <div id="1">music to</div>
+            <div id="1"> your ears</div>
+            <p class="subs">A mobile app is a computer program designed on a mobile device such as a phone/tablet or watch.</p>
+            <img id="p1" src="images/App Store@2x.png" alt="">
+            <img id="p2" src="images/Play Store@2x.png" alt="">
+        </div>
+        
+    <!--THE Side Images-->
+    
+        <div class="col-1-of-2"></div>
+            <div class="composition">
+           
+                <img src="images/iPhone X - Light-1@2x.png" alt="Photo 1" class="composition_photo composition_photo-p1">
+                <img src="images/iPhone X - Light-2@2x.png" alt="Photo 2" class="composition_photo composition_photo-p2">
+                <img src="images/iPhone X - Light@2x.png" alt="Photo 3" class="composition_photo composition_photo-p3">
+                
+            </div>
+        </div>
+    </section>
+
+    
+<!--The second section-->
+
+    <section>
+        
+        <div class=" title2">About Us</div>
+        <div class=" sub2">Moood Muse is new and it's at your service 
+            <div class=" sub_title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation qui officia deserunt mollit 
+                anim id est laborum.
+            </div>
+        
+        </div>
+       
+
+        <div class=" composition_sec2" >
+
+                <img src="images/iPhone X - Dark@2x.png" class="shad composition_sec2_photo-p1" data-tilt >
+                <div class="shad1" ></div>
+                <div class="shad2"></div>
+                         
+                
+        </div>
+
+
+
+        
+    </section>
+
+    <!--SHOWCASE-->
+
+    <section>
+
+        <div class="title3">Showcase</div>
+
+        <div class="scroll">
+   
+            <ul>
+                <li class="item-a">
+                    <img style="margin-top: 33px;" src="images/iPhone X - Dark-1.png">
+                </li>
+                <li class="item-">
+                    <img src="images/iPhone X - Light-3.png" >
+                </li>
+                <li class="item-c">
+                    <img src="images/iPhone X - Dark-2.png">
+                </li>
+                <li class="item-d">
+                    <img src="images/iPhone X - Light-4.png" >
+                </li> <li class="item-a">
+                    <img src="images/iPhone X - Light.png" >
+                </li>
+                
+            </ul>
+
+          </div>
+
+    
+    </section>
+
+    <!--FEATURES-->
+
+    <section >
+
+        <div class="title4">Features</div>
+        <div class="sub4">We've partnered with awsome flocks
+            <div id="s1" class=" sub_title4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               
+            </div>       
+        </div>
+
+        <button class="button">
+            <span style="transform: translateY(-3px);"> All Features </span>
+        </button>
+
+        <div class="container1" data-tilt>
+            <hr>
+            <img class="con_img"  src="images/playlist.png" alt="">
+            <hr>
+            <div class="container_title">Sujjested Playlist
+
+                <div class="container_subs ">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod nisi ut aliquip ex ea commodo consequat.
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container2" data-tilt>
+            <hr>
+            <img class="con_img" src="images/subtitles.png" alt="">
+            <hr>
+            <div class="container_title">Lyrics on the go
+
+                <div class="container_subs">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod nisi ut aliquip ex ea commodo consequat.
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container3" data-tilt>
+            <hr>
+            <img class="con_img"src="images/support.png" alt="">
+            <hr>
+            <div class="container_title">Collaborated Playlist
+
+                <div class="container_subs ">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod nisi ut aliquip ex ea commodo consequat.
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--REVIEWS-->
+
+    <section>
+        <div class="title5">Reviews</div>
+        <div class="scroll2">
+   
+            <ul>
+                <li>
+               
+                    <div class="r-view_container" data-tilt>
+                        <img class="r-view_img" src="images/unnamed.png" >
+                        <div class="r-view_title">
+                            Jeremy Zuker
+
+
+                        
+                        </div>
+                        
+                        <div  style="padding-top: 15px;"  class="container_subs" style="width: 100px;">
+                            Lorem ipsum dolor sit amet, consectetur
+                            <br>
+                            <span style="padding-left: 10px;">adipiscing elit, sed do eiusmod ut</span> 
+                            <br> 
+                        <span style="padding-left: 33px;">aliquip ex ea commodo.</span> 
+                            
+                        </div>
+                    </div>
+              
+                </li>
+                  
+                <li>
+               
+                    <div class="r-view_container" data-tilt>
+                        <img class="r-view_img" src="images/maxresdefault.png" alt="shoes">
+                        <div class="r-view_title">
+                            Zara Larson
+
+
+                        
+                        </div>
+                        
+                        <div  style="padding-top: 15px;"  class="container_subs" style="width: 100px;">
+                            Lorem ipsum dolor sit amet, consectetur
+                            <br>
+                            <span style="padding-left: 10px;">adipiscing elit, sed do eiusmod ut</span> 
+                            <br> 
+                            <span style="padding-left: 33px;">aliquip ex ea commodo.</span> 
+                            
+                        </div>
+                    </div>
+              
+                </li>
+                  
+                <li>
+               
+                    <div class="r-view_container" data-tilt>
+                        <img class="r-view_img" src="images/Bruno-Mars.png" alt="shoes">
+                        <div class="r-view_title">
+                            Bruno Mars
+
+
+                        
+                        </div>
+                        
+                        <div  style="padding-top: 15px;"  class="container_subs" style="width: 100px;">
+                            Lorem ipsum dolor sit amet, consectetur
+                            <br>
+                            <span style="padding-left: 17px;">adipiscing elit, sed do eiusmod ut</span> 
+                            <br> 
+                        <span style="padding-left: 33px;">aliquip ex ea commodo.</span> 
+                            
+                        </div>
+                    </div>
+              
+                </li>
+                  
+                <li>
+               
+                    <div class="r-view_container" data-tilt>
+                        <img class="r-view_img" src="images/lauv-press-photo.png" alt="shoes">
+                        <div class="r-view_title">
+                            Luva 
+
+
+                        
+                        </div>
+                        
+                        <div  style="padding-top: 15px;" class="container_subs" style="width: 100px;">
+                            Lorem ipsum dolor sit amet, consectetur
+                            <br>
+                            <span style="padding-left: 10px;">adipiscing elit, sed do eiusmod ut</span> 
+                            <br> 
+                        <span style="padding-left: 33px;">aliquip ex ea commodo.</span> 
+                            
+                        </div>
+                    </div>
+              
+                </li>
+                <li>
+               
+                    <div class="r-view_container" data-tilt>
+                        <img class="r-view_img" src="images/unnamed.png" alt="shoes">
+                        <div class="r-view_title">
+                            Jeremy Zuker
+
+
+                        
+                        </div>
+                        
+                        <div style="padding-top: 15px;" class="container_subs" style="width: 100px;">
+                            Lorem ipsum dolor sit amet, consectetur
+                            <br>
+                            <span style="padding-left: 10px;">adipiscing elit, sed do eiusmod ut</span> 
+                            <br> 
+                        <span style="padding-left: 33px;">aliquip ex ea commodo.</span> 
+                            
+                        </div>
+                    </div>
+              
+                </li>
+                  
+            </ul>
+       
+          </div>
+    </section>
+
+       
+
+    
+
+
+</body>
+
+<!--FOOTER-->
+
+<footer>
+    <div class="subscribe">
+        <form action="" class="subscribe-form">
+            <label for="input" class="label" >Subscribe to our newsletter :</label>
+            <input class="input" placeholder="      S u b s c r i b e" id="input" type="text">
+            <button class="submit-btn" type="submit">Subscribe!</button>
+        </form>
+    </div>
+    <div class="foot">
+        
+        <div >
+            <p class="footer_sub_title">This template is made by Aditya Deshmukh. you can use this template for your personal or industrial use
+                 but  don't forget to mention the name of  its rightful owner .
+                
+            </p>
+        </div>
+        <div class="contact">
+            <h3 class="con_us">Contact us</h3>
+            <p class="numb">123 456 7890</p>
+            <a href="mailto:adideshmukh2005@gmail.com"><p class="mail" title="e-mail">adideshmukh@gmail.com</p></a>
+        </div>
+        <div class="social">
+
+            <h3 class="s_media">Social Media</h3>
+            <a href="https://www.instagram.com/ad4_re_al"><img class="so_img" title="instagram" id="inst" src="images/instagram (2).png" alt=""></a>
+            <a href="https://www.facebook.com/aditya.deshmukh.5686322/"><img class="so_img" title="Facebook" id="fb" src="images/fb.png" alt=""></a>
+            <a href="https://www.github.com/Adi-Deshmukh/"><img class="so_img"  title="github" id="git" src="images/github.png" alt=""></a>      
+            <a href="https://www.linkedin.com/in/aditya-deshmukh-2587ab1ba/"><img class="so_img" id="linkedin" title="linkedin" src="images/lin.png" alt=""></a>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://www.instagram.com/ad4_re_al">Aditya Deshmukh</a>
+         </div>
+</footer>
+
+
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/vanilla-tilt.js" type="text/javascript"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+
+<script>
+  
+
+    
+    
+    setTimeout(function(){
+        $(".loader_bg").fadeToggle()
+    }, 1250);
+
+
+    $(".so_img").tooltip({
+        show:{effect:"blind",duration:400,bg:"black"},
+        hide:{effect:"blind",duration:400}
+    });
+
+    $(".mail").tooltip({
+        show:{effect:"blind",duration:600,bg:"black"},
+        hide:{effect:"blind",duration:400}
+    });
+
+</script>
+
+</html>
