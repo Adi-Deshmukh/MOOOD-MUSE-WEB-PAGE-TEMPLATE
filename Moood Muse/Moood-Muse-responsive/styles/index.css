@@ -671,6 +671,20 @@ FOR SECTION TWO
   border-radius: 40px;
 }
 
+.composition_sec2:hover .shad1
+{
+  transform: rotate(21deg);
+  transition: all 2s;
+}
+
+.composition_sec2:hover .shad2
+{
+  transform: rotate(-21deg);
+  transition: all 2s;
+
+}
+
+
 .shad1 {
   background-image: linear-gradient(to right, rgb(58, 123, 213), rgb(0, 210, 255));
   transform: rotate(-21deg);
