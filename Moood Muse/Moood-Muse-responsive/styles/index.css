@@ -1390,7 +1390,7 @@ footer {
 
   #inst
   {
-    top: 137px;
+    top: 127px;
 
   }
   .input
@@ -1460,5 +1460,6 @@ footer {
     position: absolute;
     top: 92rem;
     left: 2rem;
+    font-size: x-small;
   }
 }
